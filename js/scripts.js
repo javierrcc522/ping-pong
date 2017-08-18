@@ -4,7 +4,7 @@
 function pingpongMaster(numeros) {
   var resultNumber = [];
   for( var i = 1; i <= numeros; i++){
-    if(i%15 === 0)
+    if(i%15 === 0){
     resultNumber.push("ping-pong")
     alert("ping-pong works")
   } else if(i%5 === 0) {
@@ -16,10 +16,10 @@ function pingpongMaster(numeros) {
 
   } else {
     resultNumber.push(i);
-    return resultNumber;
   };
 };
-
+return resultNumber;
+};
 
 
 
@@ -32,6 +32,6 @@ $(document).ready(function(){
     event.preventDefault();
     var userNumber = parseInt($("input#userInput").val());
     var resultNumber = pingpongMaster()
-    $("#userResult").append()
+    $("#userResult").text()
   });
 });
