@@ -3,18 +3,17 @@ function pingPong(number) {
   var resultNumber = "";
   for (var i = 1; i <= number; i++){
     if (i%15 === 0){
-      resultNumber = resultNumber + "<li>" + "Ping Pong" + "</li>";
+      resultNumber = resultNumber + "Ping Pong";
     }
     else if (i% 5 === 0) {
-      resultNumber = resultNumber + "<li>" + "Pong" + "</li>";
+      resultNumber = resultNumber + "Pong";
     }
     else if (i% 3 === 0) {
-      resultNumber = resultNumber + "<li>" + "Ping" + "</li>";
+      resultNumber = resultNumber + "Ping";
 
     } else {
-      resultNumber = resultNumber + "<li>" + i + "</li>";
+      resultNumber = resultNumber + i;
     };
-    document.getElementById("item List").innerHTML = resultNumber;
   };
   return resultNumber;
 };
