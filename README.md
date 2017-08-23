@@ -27,9 +27,15 @@ _Description_
 
 ## Setup/Installation Requirements
 
-* _Instructions_
+* _Open this https://javierrcc522.github.io/ping-pong/ in your browser_
 
-_Installation_
+* _Enter numbers_
+
+* _Click the button!!_
+
+* _Enjoy!!_
+
+
 
 ## Known Bugs
 
@@ -37,7 +43,7 @@ _There are no known bugs at this time._
 
 ## Support and contact details
 
-_ If you have any problems, questions, or concerns, please contact javierrcc522@gmail.com
+_ If you have any problems, questions, or concerns, please contact javierrcc522@gmail.com _
 
 ## Technologies Used
 
@@ -46,6 +52,7 @@ _ If you have any problems, questions, or concerns, please contact javierrcc522@
 * _JavaScript_
 * _jQuery_
 * _Bootstrap_
+* _Github_
 
 ### License
 
