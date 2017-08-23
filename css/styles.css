@@ -1,0 +1,17 @@
+.jumbotron h1 {
+  text-align: center;
+  color: red;
+  font-weight: bolder;
+}
+
+h3 {
+  color: lightblue;
+}
+
+#project3{
+  text-align: center;
+}
+
+body{
+  background-color: green;
+}
