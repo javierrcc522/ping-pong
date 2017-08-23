@@ -1,4 +1,4 @@
-
+// back-end
 function pingPong(number) {
   var resultNumber = "";
   for (var i = 1; i <= number; i++){
@@ -18,7 +18,7 @@ function pingPong(number) {
   return resultNumber;
 };
 
-
+//Front-end
 $(document).ready(function(){
   $("form#project3").submit(function(event) {
     event.preventDefault();
